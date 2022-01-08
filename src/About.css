@@ -1,0 +1,23 @@
+p {
+    color: #000;
+    margin-top: 90px;
+    line-height: 50px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid grey;
+    border-radius: 25px;
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: -12px -12px 4px 0px rgba(100, 100, 100, 0.25);
+}
+
+p:hover {
+    transform: scale(1.15);
+    transition: 0.7s ease;
+}
+
+.container {
+
+    width: 50vw;
+    margin: 0 auto;
+}
